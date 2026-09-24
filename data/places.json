@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Шымбулак",
+        "region": "Алматы",
+        "category": "mountains",
+        "price": 10000,
+        "season": ["winter", "spring", "summer", "autumn"],
+        "interests": ["mountains", "nature", "sport"]
+    },
+    {
+        "name": "Чарынский каньон",
+        "region": "Алматинская область",
+        "category": "nature",
+        "price": 2000,
+        "season": ["spring", "summer", "autumn"],
+        "interests": ["nature", "adventure"]
+    },
+    {
+        "name": "Бәйтерек",
+        "region": "Астана",
+        "category": "city",
+        "price": 2000,
+        "season": ["winter", "spring", "summer", "autumn"],
+        "interests": ["city", "architecture", "history"]
+    }
+]

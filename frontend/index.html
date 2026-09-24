@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QazaqGuide AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🇰🇿 QazaqGuide <span>AI</span></div>
+
+    <nav>
+        <a href="#">Направления</a>
+        <a href="#">Маршруты</a>
+        <a href="#">Места</a>
+        <a href="#">О проекте</a>
+    </nav>
+
+    <button class="login-btn">Войти</button>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <p class="subtitle">AI-ГИД ПО КАЗАХСТАНУ</p>
+
+            <h1>
+                Открой<br>
+                Казахстан<br>
+                <span>по-своему.</span>
+            </h1>
+
+            <p class="description">
+                Персональный AI-гид поможет подобрать места
+                и создать маршрут с учетом ваших интересов,
+                бюджета и времени.
+            </p>
+
+            <button class="main-btn" onclick="createRoute()">
+                Создать маршрут →
+            </button>
+        </div>
+
+    </section>
+
+    <section class="destinations">
+
+        <div class="section-title">
+            <p>ИССЛЕДУЙ КАЗАХСТАН</p>
+            <h2>Популярные направления</h2>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="card-image almaty"></div>
+                <h3>Алматы</h3>
+                <p>Горы, природа и городская жизнь</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image astana"></div>
+                <h3>Астана</h3>
+                <p>Современная архитектура и культура</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image mangystau"></div>
+                <h3>Мангистау</h3>
+                <p>Уникальная природа и каньоны</p>
+            </div>
+
+            <div class="card">
+                <div class="card-image turkistan"></div>
+                <h3>Туркестан</h3>
+                <p>История и культурное наследие</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<button class="ai-button" onclick="askAI()">
+    ✦ Спросить AI
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
